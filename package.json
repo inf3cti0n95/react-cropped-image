@@ -7,7 +7,8 @@
     "test": "jest --config jest.config.js --no-cache",
     "build": "rollup -c",
     "build:watch": "rollup -c --watch",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "codecov": "codecov"
   },
   "repository": {
     "type": "git",
@@ -38,6 +39,7 @@
     "@babel/preset-react": "^7.0.0",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^23.6.0",
+    "codecov": "^3.1.0",
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.7.1",
     "jest": "^23.6.0",
