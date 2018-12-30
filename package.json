@@ -1,0 +1,56 @@
+{
+  "name": "react-cropped-image",
+  "version": "0.0.0-development",
+  "description": "Get a Cropped Image",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest --config jest.config.js --no-cache",
+    "build": "rollup -c",
+    "build:watch": "rollup -c --watch",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inf3cti0n95/react-cropped-image.git"
+  },
+  "keywords": [
+    "React",
+    "Crop",
+    "Image",
+    "React",
+    "Crop",
+    "Crop",
+    "Image",
+    "Image",
+    "React",
+    "Cropping",
+    "Image"
+  ],
+  "author": "Viraj Trivedi <inf3cti0n95@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/inf3cti0n95/react-cropped-image/issues"
+  },
+  "homepage": "https://github.com/inf3cti0n95/react-cropped-image#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
+    "jest": "^23.6.0",
+    "jest-canvas-mock": "^1.1.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-test-renderer": "^16.7.0",
+    "regenerator-runtime": "^0.13.1",
+    "rollup": "^1.0.0",
+    "rollup-plugin-babel": "^4.2.0",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-includepaths": "^0.2.3",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "semantic-release": "^15.13.2"
+  }
+}
