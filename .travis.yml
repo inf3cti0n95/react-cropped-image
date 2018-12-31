@@ -16,6 +16,6 @@ jobs:
         provider: script
         skip_cleanup: true
         script:
-          - npx semantic-release
-          - npx codecov
+          - npm run semantic-release
+          - npm run codecov
 
